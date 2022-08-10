@@ -1,9 +1,7 @@
-import 'dart:js';
-import 'dart:js';
-import 'dart:js';
 
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:start_web_app/pages/addEmployee.dart';
 import 'package:start_web_app/widgets/customButton.dart';
 
 import 'employeesPage.dart';
@@ -124,7 +122,7 @@ class NavBar extends StatelessWidget {
           CustomButton(Colors.blueAccent, 'Employees',(){Navigator.push(context, MaterialPageRoute(builder: (context)=>EmployeesPage()));
           }),
 
-          CustomButton(Colors.blueAccent, 'Other',(){Navigator.push(context, MaterialPageRoute(builder: (context)=>HomePage()));
+          CustomButton(Colors.blueAccent, 'Add Employee',(){Navigator.push(context, MaterialPageRoute(builder: (context)=>AddEmployee()));
           }),
 
           CustomButton(Colors.blueAccent, 'Other',(){Navigator.push(context, MaterialPageRoute(builder: (context)=>HomePage()));
